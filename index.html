@@ -1,13 +1,27 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/../HTML y CSS/CSS/ejercicios_3/fonts.css">
-    <link rel="stylesheet" href="/repo1/index.html"> 
+    <link rel="stylesheet" href="/repo1/style.css"> 
     <title>Document</title>
 </head>
 <body>
-    
+       
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+</script>
+<script src="app.js"></script>
+
+<input type="file" id="pdf-input" accept="application/pdf" multiple>
+<div id="library"></div>
+
+
 </body>
+   
+
 </html>
